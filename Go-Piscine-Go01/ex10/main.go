@@ -16,7 +16,9 @@ func main() {
 	fmt.Println(piscine.Atoi("--1234"))
 
 	fmt.Println(piscine.Atoi("-2147483648"))
-	fmt.Println(piscine.Atoi("-9223372036854775808"))
 	fmt.Println(piscine.Atoi("9223372036854775807"))
+	fmt.Println(piscine.Atoi("-9223372036854775808"))
+	fmt.Println(piscine.Atoi("9223372036854775808"))
+	fmt.Println(piscine.Atoi("-9223372036854775809"))
 
 }
