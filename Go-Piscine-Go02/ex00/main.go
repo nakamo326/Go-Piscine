@@ -11,5 +11,6 @@ func main() {
 	fmt.Println(piscine.IterativeFactorial(4))
 	fmt.Println(piscine.IterativeFactorial(5))
 	fmt.Println(piscine.IterativeFactorial(20))
+	fmt.Println(piscine.IterativeFactorial(21))
 
 }

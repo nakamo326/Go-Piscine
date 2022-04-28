@@ -1,7 +1,7 @@
 package piscine
 
 func IterativeFactorial(nb int) int {
-	var intmax int = int(^uint(0) >> 1)
+	const intmax = int(^uint(0) >> 1)
 	res := 1
 	if nb < 0 {
 		return 0
